@@ -1,3 +1,4 @@
+# Unreal Engine generated folders
 /Binaries/
 /DerivedDataCache/
 /Intermediate/
@@ -6,6 +7,14 @@
 /.vs/
 /.idea/
 /.vscode/
+
+# Plugins (Private commercial plugin source)
+/Plugins/
+
+# Subagents & scratch
+/.agents/
+
+# IDE / Solution files
 *.xcworkspace
 *.xcodeproj
 *.sln
@@ -14,3 +23,8 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+
+# Markdown files (ignore all except repository README.md)
+*.md
+!README.md
+!readme.md

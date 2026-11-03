@@ -5,6 +5,10 @@
 	"Description": "",
 	"Plugins": [
 		{
+			"Name": "PointSnap",
+			"Enabled": true
+		},
+		{
 			"Name": "OpenXR",
 			"Enabled": true
 		},
@@ -27,7 +31,7 @@
 		},
 		{
 			"Name": "PICOOpenXR",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/2debc028cd90414f97f308c74a3d6a32",
 			"SupportedTargetPlatforms": [
 				"Win64",
